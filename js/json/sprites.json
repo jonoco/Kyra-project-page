@@ -1,0 +1,211 @@
+{
+	"_brandon": {
+		"name": "_brandon",
+		"png": "/assets/sprites/brandon.png",
+		"json": "/assets/sprites/brandon.json",
+		"action": {
+			"click": { "text": "I'm getting tired" }
+			},
+		"animated": true,
+		"animations": { 
+			"walk-right": {
+				"frames": [ "right-1","right-2","right-3","right-4","right-5","right-6","right-7" ],
+				"speed": 8,
+				"loop": true,
+				"start": false
+			},
+			"walk-left" : {
+				"frames": [ "left-1", "left-2", "left-3", "left-4", "left-5", "left-6", "left-7" ],
+				"speed": 8,
+				"loop": true,
+				"start": false
+			}
+		}	
+	},
+	"lamp": {
+		"name": "lamp",
+		"png": "/assets/sprites/lamp.png",
+		"json": "/assets/sprites/lamp.json",
+		"action": {
+			"click": { "text": "look at that damn lamp!" }
+			},
+		"animated": true,
+		"animations": {
+			"on": {
+				"name": "on",
+			 	"frames": [ "lamp-1", "lamp-2", "lamp-3"],
+			 	"speed": 5,
+			 	"loop": true,
+			 	"start": true 
+			}
+		}
+	},
+	"river": {
+		"name": "river",
+		"png": "/assets/sprites/river.png",
+		"json": "/assets/sprites/river.json",
+		"action": null,
+		"animated": true,
+		"animations": {
+			"on": {
+				"name": "on",
+			 	"frames": [ "river-1", "river-2", "river-3", "river-4", "river-5", "river-6",
+			 		"river-7", "river-8", "river-9", "river-10", "river-11", "river-12"],
+			 	"speed": 5,
+			 	"loop": true,
+			 	"start": true 
+			}
+		}
+	},
+	"temple entrance": {
+		"name": "temple entrance",
+		"png": "/assets/sprites/temple_entrance.png",
+		"json": null,
+		"action": null,
+		"animated": false,
+		"animations": null
+	},
+	"stone1": {
+		"name": "stone1",
+		"png": "/assets/sprites/stone1.png",
+		"json": null,
+		"action": null,
+		"animated": false,
+		"animations": null
+	},
+	"willow branch": {
+		"name": "willow branch",
+		"png": "/assets/sprites/willowbranchs.png",
+		"json": null,
+		"action": null,
+		"animated": false,
+		"animations": null
+	},
+	"herman sawing": {
+		"name": "herman sawing",
+		"png": "/assets/sprites/herman_sawing.png",
+		"json": "/assets/sprites/herman_sawing.json",
+		"action": {
+			"click": { "text": "I better not bother him now" }
+			},
+		"animated": true,
+		"animations": {
+			"saw": {
+				"name": "saw",
+			 	"frames": [ "saw-5", "saw-1", "saw-2", "saw-3", "saw-4", "saw-5", "saw-1", 
+			 		"saw-2", "saw-3", "saw-4", "saw-5", "saw-1", "saw-2", "saw-3", "saw-4", 
+			 		"saw-5", "saw-1", "saw-2", "saw-3", "saw-4", "saw-5",
+			 		"saw-6", "saw-7", "saw-8", "saw-7", "saw-6"],
+			 	"speed": 5,
+			 	"loop": true,
+			 	"start": false 
+			}
+		}
+	},
+	"altar": {
+		"name": "altar",
+		"png": "/assets/sprites/altar.png",
+		"json": "/assets/sprites/altar.json",
+		"action": {
+			"click": { "animation": "altar" }
+			},
+		"animated": true,
+		"animations": {
+			"altar": {
+				"name": "altar",
+			 	"frames": [ 
+			 		"altar-1", "altar-2", "altar-3", "altar-4", "altar-5", "altar-6", "altar-5", "altar-4", "altar-3", "altar-2",
+			 		"altar-1", "altar-2", "altar-3", "altar-4", "altar-5", "altar-6", "altar-5", "altar-4", "altar-3", "altar-2",
+			 		"altar-1", "altar-2", "altar-3", "altar-4", "altar-5", "altar-6", "altar-5", "altar-4", "altar-3", "altar-2", "altar-1"
+			 	],
+			 	"speed": 10,
+			 	"loop": false,
+			 	"start": false 
+			}
+		}
+	},
+	"birch1": {
+		"name": "birch1",
+		"png": "/assets/sprites/birch1.png",
+		"json": null,
+		"action": null,
+		"animated": false,
+		"animations": null
+	},
+	"stone2": {
+		"name": "stone2",
+		"png": "/assets/sprites/stone2.png",
+		"json": null,
+		"action": null,
+		"animated": false,
+		"animations": null
+	},
+	"amulet": {
+		"name": "amulet",
+		"png": "/assets/sprites/amulet.png",
+		"json": null,
+		"action": null,
+		"animated": false,
+		"animations": null
+	},
+	"willow": {
+		"name": "willow",
+		"png": "/assets/sprites/willow.png",
+		"json": "/assets/sprites/willow.json",
+		"action": {
+			"click": { "animation":"tear" }
+			},
+		"animated": true,
+		"animations": {
+			"tear": {
+				"name": "tear",
+			 	"frames": [ "willow-1", "willow-2", "willow-3", "willow-4", "willow-5",
+			 	 	"willow-6", "willow-7", "willow-8", "willow-9", "willow-10",
+			 	  "willow-11", "willow-12", "willow-13", "willow-14", "willow-15"],
+			 	"speed": 5,
+			 	"loop": false,
+			 	"start": false 
+			}
+		}
+	},
+	"branch up": {
+		"name": "branch up",
+		"png": "/assets/sprites/branch_up.png",
+		"json": "/assets/sprites/branch_up.json",
+		"action": null,
+		"animated": true,
+		"animations": {
+			"on": {
+				"name": "on",
+			 	"frames": [ 
+			 		"branch-1", "branch-2", "branch-3", "branch-4", "branch-5",
+			 	 	"branch-6", "branch-7", "branch-8", "branch-9", "branch-10",
+			 	  "branch-11", "branch-12", "branch-13", "branch-14", "branch-15",
+			 	   "branch-16", "branch-17", "branch-18", "branch-19", "branch-20", "branch-21"],
+			 	"speed": 5,
+			 	"loop": false,
+			 	"start": false 
+			}
+		}
+	},
+	"branch down": {
+		"name": "branch down",
+		"png": "/assets/sprites/branch_down.png",
+		"json": "/assets/sprites/branch_down.json",
+		"action": null,
+		"animated": true,
+		"animations": {
+			"on": {
+				"name": "on",
+			 	"frames": [ 
+			 		"branch-1", "branch-2", "branch-3", "branch-4", "branch-5",
+			 	 	"branch-6", "branch-7", "branch-8", "branch-9", "branch-10",
+			 	  "branch-11", "branch-12", "branch-13", "branch-14", "branch-15",
+			 	   "branch-16", "branch-17", "branch-18", "branch-19", "branch-20"],
+			 	"speed": 5,
+			 	"loop": false,
+			 	"start": false 
+			}
+		}
+	}
+}
